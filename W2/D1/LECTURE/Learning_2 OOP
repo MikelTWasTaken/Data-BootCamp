@@ -1,0 +1,81 @@
+OOP = Object Oriented programming
+- Data is typically stored in a temporary variable and accessed through a function.
+
+- Object-Oriented Programming (OOP) organizes code into classes and objects for better structure and reuse.
+    - Objects contain data and methods to process that data, based on blueprints called classes.
+        - Classes are blueprints for creating objects (instances). Objects are instances of classes that hold data and methods.
+        -Classes are written with capitalized first letter.
+
+
+In Python, everything is an object or instance (constructed object of a class).
+An object holds data as attributes and uses methods for associated functionality.
+
+Vocabulary:
+
+Encapsulation: Hiding data within objects and restricting access to some components.
+Abstraction: Simplifying complex systems by exposing only relevant details.
+Inheritance: Allows new classes to inherit properties from existing ones.
+Polymorphism: Enables objects of different classes to be treated as instances of the same class.
+
+#how to create a class:
+Class Dog():
+    pass
+
+#how to create an object or instance of the class we created:
+shelter_dog = Dog()
+print(type(shelter_dog))
+
+output will be: 'class_main-.Dog'
+
+Right now the class dog, doesnt have any information about the object.
+So we have to create attributes(characteristics of an object)
+-Name
+-Color
+-Age
+-Breed
+
+shelter_dog.name = Daisy #creating an attribute for the object looks like this.
+We need to create a function under our class. Functions in a class are called methods.
+
+class Dog():
+    def_init_(self, name, color, age)
+    sheter_dog = Dog()
+    self.name
+    self.color
+    self.age
+
+Shelter_dog = (rex, black, 7)
+Poodle = (fluffy, white, 3)
+
+Now we want the dog to bark, so we need a METHOD (see Method section)
+
+class Point():
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+## create an instance of the class
+p = Point(3,4)
+
+## access the attributes
+print("p.x is:", p.x)
+print("p.y is:", p.y)
+
+------
+METHODS FOR OOP
+
+class Dog():
+    def_init_(self, name, color, age)
+    sheter_dog = Dog()
+    self.name
+    self.color
+    self.age
+
+def bark(self) #we write self because this action will be taken on the object and self reffers to the object. 
+
+
+
+Shelter_dog = (rex, black, 7)
+Poodle = (fluffy, white, 3)
+
+#changing an attribute:

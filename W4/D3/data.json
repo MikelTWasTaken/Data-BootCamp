@@ -1,0 +1,45 @@
+// JSON (JavaScript Object Notation): Best for hierarchical or nested data structures.
+// Example: Exporting user data with nested attributes like addresses or preferences.
+
+{
+    "user_id":12345,
+    "name":{
+       "first":"john",
+       "last":"doe"
+    },
+    "orders":[
+       {
+          "order_id":"Abc123",
+          "date":"2023-01-15",
+          "items":[
+             {
+                "product":"Laptop",
+                "price":100,
+                "quantity":1
+             },
+             {
+                "product":"Iphone",
+                "price":200,
+                "quantity":1
+             }
+          ]
+       },
+       {
+          "order_id":"def123",
+          "date":"2023-01-15",
+          "items":[
+             {
+                "product":"Laptop",
+                "price":100,
+                "quantity":1
+             },
+             {
+                "product":"Iphone",
+                "price":100,
+                "quantity":1
+             }
+          ]
+       }
+    ]
+ }
+

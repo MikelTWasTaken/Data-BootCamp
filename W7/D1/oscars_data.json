@@ -1,0 +1,44 @@
+{
+    "Highlights": [
+        "Joker",
+        "1917",
+        "Once Upon a Time in Hollywood",
+        "The Irishman"
+    ],
+    "Categories": {
+        "best film": {
+            "Nominees": [
+                "Ford vs Ferrari",
+                "The Irishman",
+                "JoJo Rabbit",
+                "Joker",
+                "Little Women",
+                "Marriage Story",
+                "1917",
+                "Once Upon a Time in Hollywood",
+                "Parasite [WINNER]"
+            ],
+            "Winner": "Parasite [WINNER]"
+        },
+        "best actor": {
+            "Nominees": [
+                "Antonio Banderas - Pain and Glory",
+                "Leonardo DiCaprio - Once Upon a Time In... Hollywood",
+                "Adam Driver - Marriage Story",
+                "Joaquin Phoenix - Joker [WINNER]",
+                "Jonathan Price - The Two Popes"
+            ],
+            "Winner": "Joaquin Phoenix - Joker [WINNER]"
+        },
+        "best actress": {
+            "Nominees": [
+                "Cythia Erivo - Harriet",
+                "Scarlett Johansson - Marriage Story",
+                "Saoirse Ronan - Little Women",
+                "Charlize Theron - The Scandal",
+                "Ren\u00e9e Zellweger - Judy: Far Over the Rainbow [WINNER]"
+            ],
+            "Winner": "Ren\u00e9e Zellweger - Judy: Far Over the Rainbow [WINNER]"
+        }
+    }
+}
