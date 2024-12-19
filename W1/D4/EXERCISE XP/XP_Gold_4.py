@@ -112,3 +112,5 @@ def main():
     print(f"Total throws: {total_throws}")
     print(f"Average throws to reach doubles: {average_throws:.2f}")
 main()
+
+
