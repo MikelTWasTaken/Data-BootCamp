@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Tree for Handling Missing Values</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            white-space: pre-wrap;
+            line-height: 1.5;
+        }
+        .tree {
+            font-family: "Courier New", monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Decision Tree for Handling Missing Values</h1>
+    <pre class="tree">
+Start
+│
+├── Is missing data < 5% of total rows?
+│   ├── Yes: Delete rows if random and insignificant.
+│   └── No: Continue
+│
+├── Is missing data > 30% in columns?
+│   ├── Yes: Delete column if unimportant.
+│   └── No: Continue
+│
+├── Type of Data: Categorical or Numerical?
+│   ├── Categorical:
+│   │   ├── Is there a dominant category?
+│   │   │   ├── Yes: Mode Imputation
+│   │   │   └── No: Use Logistic Regression or KNN Imputation
+│   └── Numerical:
+│       ├── Is the data normally distributed?
+│       │   ├── Yes: Mean Imputation
+│       │   └── No: Continue
+│
+│       ├── Are there outliers or skewed distribution?
+│       │   ├── Yes: Median Imputation
+│       │   └── No: Continue
+│
+│       ├── Is missing data dependent on other features?
+│       │   ├── Yes: Use Linear Regression or Random Forest Imputation
+│       │   └── No: Use Simple Imputation (Mean/Median)
+│
+├── Time Series Data?
+│   ├── Yes: Is the gap short?
+│   │   ├── Yes: Forward/Backward Fill
+│   │   └── No: Use Interpolation (linear/spline)
+│   └── No: Continue
+│
+├── Is missing data non-random (MAR)?
+│   ├── Yes: Use Multiple Imputation by Chained Equations (MICE)
+│   └── No: Use KNN or Random Forest Imputation (if dependencies exist)
+│
+└── Is dataset large or computationally expensive?
+    ├── Yes: Use simpler imputation methods
+    └── No: Use more advanced methods like KNN, MICE, or Random Forest
+    </pre>
+</body>
+</html>
