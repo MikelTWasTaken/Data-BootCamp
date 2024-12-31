@@ -1,0 +1,3 @@
+-- Task 1: Calculate the Average Budget Growth Rate for Each Production Company
+-- Calculate the average budget growth rate for each production company across all movies they have produced.
+-- Use window functions to determine the budget growth rate and then calculate the average growth rate.
